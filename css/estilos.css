@@ -1,0 +1,944 @@
+ @import url('https://fonts.googleapis.com/css2? family= Merriweather & display=swap');
+ 
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+/*COMIENZO DEL HEADER*/
+header{
+background-image: linear-gradient(to bottom, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
+position: fixed;
+top:0 ;
+left: 0;
+right: 0;
+height: 155px;
+z-index: 1;
+}
+
+
+.nav1 {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 50px;  
+    margin-left: 40%;  
+    margin-top: 0%;
+ }
+ 
+.nav2{     
+   background-color: rgb(218, 233, 104);
+   border-radius: 5px;
+   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+   font-size: 1rem;
+   font-weight: bold;
+   margin-left: -20%;
+  
+}
+
+.nav3 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+ 
+}
+
+.nav4 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.nav5{
+width: 300%;
+}
+
+
+.nav6 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.nav7 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.nav8 {
+margin-top: -5%;
+}
+
+.nav9{
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 88%;
+    margin-top: 0%;
+    height: 10%;
+    width: 10%;
+}
+.nav10 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+     font-size: 1rem;
+     font-weight: bold;
+    margin-left: 88%;
+    margin-top: 1%;
+    height: 10%;
+    width: 10%;
+}
+
+.nav2 :hover {
+    background: #d8df04;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+ }
+
+ .nav2-1{
+    background: #0ca42a;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+    }
+
+ 
+ .nav3 :hover {
+     background: #d8df04;
+     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+     transition: .4s ease-in;
+ }
+ .nav4 :hover {
+     background: #d8df04;
+     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+     transition: .4s ease-in;
+ }
+ .nav6 :hover {
+     background: #d8df04;
+     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+     transition: .4s ease-in;
+ }
+ .nav7 :hover {
+     background: #d8df04;
+     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+     transition: .4s ease-in;
+ }
+ .nav9 :hover {
+     background: #d8df04;
+     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+     transition: .4s ease-in;
+ }
+ .nav10 :hover {
+     background: #d8df04;
+     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+     transition: .4s ease-in;
+ }
+
+.logoproyecto {
+    width: 5.5%;
+    height: 2.5%;  
+    margin-top: -6%;
+    margin-left: 2.5%;
+} 
+
+     
+.infonutri {
+    margin-top: -7%;
+    padding-top: 0%; 
+    width: 170px;
+    margin-left: 9%;
+    height: 8%;
+    width: 13%;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+}
+/*FIN DEL HEADER*/
+
+/*COMIENZO DEL MAIN - PAGINA DE INICIO*/
+.main1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 1.webp);
+    background-color:rgba(11, 11, 11, 0.25);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+ }
+
+ .nutricion{
+    padding-top: 10%;
+ }
+
+.nutricion1 {
+    width: 500px;
+    margin-left: 37%;
+    margin-top: 8%;
+    font-size: 3rem;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;  
+}
+
+.nutricion2 {
+    width: 800px;
+    margin-left: 29.5%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify; 
+    display: flex; 
+    justify-content: space-between;  
+ }
+
+ .nutricion2 img{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;  
+    float: right;  
+    margin-left: 10%;  
+ }
+
+
+.main2 {
+    width: 100%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 2.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 3.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main4 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ 4.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main5 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ verduras.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main6 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ frutas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main7 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ lacteos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main8 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ carne.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main9 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ grasas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main10 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ legumbres.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.main11 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ aceite.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    margin: 8%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20vh;    
+}
+h3{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    margin: 8%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20vh;
+}
+
+h4{
+    color: #09c80f;
+    font-weight: bold;
+    font-size: 2.1rem;
+    font-family: 'Merriweather', serif;
+}
+.p1 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 0%;
+    margin: 0%;
+    font-weight: bold;
+    margin-bottom: 0vh;
+    text-align: justify;
+    } 
+
+    .p2 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 0%;
+    margin: 0%;
+    font-weight: bold;
+    margin-bottom: 0vh;
+    text-align: center;
+    text-align: justify;
+    } 
+
+    .p3{
+        
+    }
+       /*letter-spacing: -0.2vh;
+        line-height: 4vh;*/
+
+.galeria{
+margin-left: 30%;
+padding-bottom: 10%;
+padding-top: 10%;
+width: 20%;
+height: 20%;
+}
+
+.galeria1 {
+box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+ background-color: rgb(218, 233, 104);
+ border-radius: 5px;
+ font-size: 3rem; 
+ line-height: 1.5;
+}
+
+.galeria2 {
+ text-align: center;    
+}
+
+.galeria3 {
+   margin-left: 10%;
+   margin-top: 0%;
+   height: 80%;
+   width: 80%;   
+   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+
+}
+
+.galeria3:hover{
+    background: #0fc7c1;
+    box-shadow: 0 0 5px #f7f5f5, 0 0 25px #fbf9f9, 0 0 50px #fbfafa, 0 0 200px #f1efef;
+    transition: .2s ease-in;
+}
+
+.galeria4 {
+   margin-left: 52%;
+   margin-top: -40.2%;
+   padding-bottom: 10%;
+   padding-top: 10%;
+   width: 20%;
+   height: 20%;
+}
+
+.galeria5 {
+    margin-left: 30%;
+    margin-top: -10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 20%;
+     height: 20%;
+}
+.galeria6 {
+    margin-left: 52%;
+   margin-top: -40.5%;
+     padding-bottom: 10%;
+    padding-top: 10%;
+    width: 20.5%;
+    height: 20%;
+}
+.galeria7 {
+    margin-left: 30%;
+    margin-top: -10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 20%;
+     height: 20%;
+}
+.galeria8 {
+    margin-left: 52%;
+    margin-top: -40.2%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 20%;
+    height: 20%;
+}
+.galeria9 {
+    margin-left: 41%;
+    margin-top: -10%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 20%;
+     height: 20%;
+}
+
+ /*PAGINA DE "NOSOTROS"*/
+
+
+ .testicuadro1 {
+  width: 600px;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 10px;
+  padding-bottom: 0px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: rgb(218, 233, 104);
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.testicuadro2 {
+  width: 600px;
+  margin-left: 55%;
+  margin-top: -23.5%;
+  padding: 10px;
+  padding-bottom: 0px 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: rgb(218, 233, 104);
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.testicuadro3 {
+    width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  
+}   
+
+.testicuadro4 {
+    width: 600px;
+    margin-top: -33%;
+    padding: 10px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55%;  
+    
+}
+ .testicuadro5 {
+    padding-bottom: 8%;
+ }
+                 
+  .testimonio1 {
+    margin-left: 30%;
+    height: 220px;
+    width: 220px;
+  }
+
+ .testimonio2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-align: center;
+ }
+
+ .testimonio3 {
+    font-size: 1.5rem;
+    text-align: center;
+ }
+/*pagina de "NOSOTROS"*/
+
+/*pagina de "GRUPOS"*/
+
+.video {
+    width: 30%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    
+}
+
+.video2{
+    margin-left: 0%;
+    background-color: rgb(6, 6, 6);
+    padding: 0.5%;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    margin-top: 2%;
+    margin-bottom: 0%;       
+}
+
+
+/*pagina de "GRUPOS"*/
+
+/*pagina de "IMC"*/
+
+.nutricion4 {
+    width: 1100px;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nutricion4 img {
+    width: 420px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 3%;
+}
+
+.nutricion3 {
+    width: 1100px;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nutricion3 img {
+    width: 420px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 3%;
+}
+.nutricion6{
+    width: 800px;
+    margin-top: 5%;
+    padding: 0px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 29.5%;
+}
+
+.imc1{
+    margin-left: 5%;
+}
+
+.imc2 {
+  padding-bottom: 5%;
+ }
+
+.boton{
+    background-color: rgb(218, 233, 104);
+     border-radius: 5px;
+     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+     margin-left: 37%;
+     margin-top: 10%;
+     margin-bottom: 2%;
+     width: 200px;
+     height: 100px;
+     font-size: 1rem;
+     font-weight: bold;
+ }
+
+ .manzanaimc{
+   margin-left: 50%;
+   height: 12%;
+   width: 12%;
+   margin-top: -10%;
+ }
+
+/*pagina de "IMC"*/
+
+/*pagina de "CONTACTO"*/
+
+.nutricion5{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -5%;
+    padding: 0px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.infonutri2{
+border-radius: 5px;
+box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+width: 50%;
+margin-left: 25%;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+
+.tabla{
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    padding: 2%;
+    padding-bottom: 45%;
+    padding-top:2% ;
+    padding-left: 2.5%;
+    height: 400px;
+    width: 500px;
+    margin-left: 37%;
+    font-size: 1rem;
+    margin-top: 8%;
+    font-weight: bold;   
+}
+
+.tabla2 {
+    margin-left: 0%;
+    margin-top: 5%;
+    height:50px;
+    width: 380px;
+    margin-bottom: 10%;
+    padding: 3%;
+}
+.tabla3{
+margin-left: 8%; 
+margin-top: -5%;
+}
+
+.tabla4 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 1PX;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-weight: bold;
+    margin-bottom: 10%;
+    margin-left: 34.5%;
+    margin-top: 10%;
+    width: 15%;
+    height: 35%;
+}
+
+.tabla5{
+border-radius: 1PX;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+}
+
+.mensaje{
+    width: 95%;
+    height: 115%;
+    border-radius: 1PX;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    }
+
+.boton2{
+    height: 50PX;
+    width: 100PX;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+
+.nutricion7 {
+    margin-bottom: 10%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapa{
+    margin-left: 0%;
+    background-color: rgb(6, 6, 6);
+    padding: 0.5%;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    margin-top: 2%;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 30%;
+}
+/*pagina de "CONTACTO"*/
+
+/*FIN DEL MAIN*/
+
+/*COMIENZO DEL FOOTER*/
+footer{
+background-image: linear-gradient(to top, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
+width: 100%;
+height: 50%;
+padding-bottom: 1%;
+}
+
+.red{
+    list-style-type: none;
+}
+.red1{
+    margin-left: 0%;
+    margin-bottom: -4%;
+    display:inline-block ;   
+}
+
+.red2 {
+    margin-bottom: -8%;
+    margin-left: 0%;
+    display: inline-block;
+}
+
+.red3 {
+    margin-left: 0%;
+    margin-bottom: -12%;
+    display: inline-block;
+}
+
+.copy {
+text-align: center;
+margin-left: -3%;
+font-weight: bold;
+margin-bottom: 0%;
+padding-bottom: -10%;
+}
+ 
+.logowpp {
+bottom: 30px;
+right: 30px;
+position: fixed;
+line-height: 55px;
+}
+
+.wpp{
+margin-left: 90%;
+list-style-type: none;
+position: fixed;
+bottom: 30px;
+right: 30px;
+position: fixed;
+line-height: 55px;
+}      
+      
+   
+.nav11 {
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 2%;
+}
+.nav12 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: -80%;
+}
+.nav13 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.nav14 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.nav15 {
+    background-color: rgb(218, 233, 104);
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 10%;
+}
+    
+.nav12 :hover {
+    background: #d8df04;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+}
+.nav13 :hover {
+    background: #d8df04;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+}
+.nav14 :hover {
+    background: #d8df04;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+}
+.nav15 :hover {
+    background: #d8df04;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
+}
+/*FIN DEL FOOTER*/
