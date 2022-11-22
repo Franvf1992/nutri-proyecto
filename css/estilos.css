@@ -20,18 +20,22 @@ z-index: 1;
 .nav1 {
     list-style-type: none;
     text-align: center;
-    padding-top: 50px;  
-    margin-left: 75%;  
+    padding-top: 50px;    
     margin-top: 0%;
  }
- 
+  ul{
+    width: 99%;
+    justify-content: end;
+    
+  }
+
 .nav2{     
    background-color: rgb(218, 233, 104);
    border-radius: 5px;
    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
    font-size: 1rem;
    font-weight: bold;
-   margin-left: -20%;
+   margin-left: 1%;
   
 }
 
@@ -41,7 +45,7 @@ z-index: 1;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 1%;
  
 }
 
@@ -51,7 +55,7 @@ z-index: 1;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 .nav5{
@@ -65,7 +69,7 @@ width: 300%;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 .nav7 {
@@ -74,7 +78,7 @@ width: 300%;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     font-size: 1rem;
     font-weight: bold;
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 .nav8 {
@@ -110,9 +114,9 @@ margin-top: -5%;
     transition: .4s ease-in;
  }
 
- .nav2-1{
-    
-    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+ .nav2-1 :hover{
+    background: #08c758;
+    box-shadow: 0 0 5px #880a0a, 0 0 25px #bd0d0d, 0 0 50px #a70f0f, 0 0 200px #be0b0b;
     transition: .4s ease-in;
     }
 
@@ -151,13 +155,17 @@ margin-top: -5%;
 .infonutri {
     margin-top: -5%;
     padding-top: 0%; 
-    width: 170px;
     margin-left: 5%;
     height: 8%;
-    width: 13%;
+    width: 100%;
     border-radius: 5px;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }
+
+.logo{
+ width: 13%;
+}
+
 /*FIN DEL HEADER*/
 
 /*COMIENZO DEL MAIN - PAGINA DE INICIO*/
@@ -175,13 +183,14 @@ margin-top: -5%;
  }
 
  .nutricion{
-    padding-top: 10%;
+    padding-top: 0%;
  }
 
 .nutricion1 {
-    width: 500px;
-    margin-left: 37%;
-    margin-top: 8%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 0%;
     font-size: 3rem;
     line-height: 1.5;
     background-color: rgb(218, 233, 104);
@@ -190,8 +199,8 @@ margin-top: -5%;
 }
 
 .nutricion2 {
-    width: 800px;
-    margin-left: 29.5%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 10%;
     padding: 20px 20px;
     padding-bottom: 0px 0px;
@@ -361,7 +370,7 @@ h4{
     text-align: justify;
     } 
 
-    .p2 {
+.p2 {
     font-size: 2rem;
     font-family: 'Merriweather', serif;
     text-align: center;
@@ -373,7 +382,6 @@ h4{
     text-align: justify;
     } 
 
-    
 
 
 .galeria{
@@ -413,7 +421,7 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 
 .galeria4 {
    margin-left: 52%;
-   margin-top: -40.2%;
+   margin-top: -40%;
    padding-bottom: 10%;
    padding-top: 10%;
    width: 20%;
@@ -460,12 +468,12 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     width: 20%;
      height: 20%;
 }
+ /* FIN DEL MAIN Y PAGINA DE "INICIO" */
 
  /*PAGINA DE "NOSOTROS"*/
 
-
  .testicuadro1 {
-  width: 600px;
+  width: 30%;
   margin-left: 10%;
   margin-top: 10%;
   padding: 10px;
@@ -481,7 +489,7 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
  }
 
 .testicuadro2 {
-  width: 600px;
+  width: 30%;
   margin-left: 55%;
   margin-top: -23.5%;
   padding: 10px;
@@ -497,7 +505,7 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   }
 
 .testicuadro3 {
-    width: 600px;
+    width: 30%;
     margin-left: 10%;
     margin-top: 10%;
     padding: 10px;
@@ -515,7 +523,7 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }   
 
 .testicuadro4 {
-    width: 600px;
+    width: 30%;
     margin-top: -33%;
     padding: 10px;
     padding-bottom: 0px 0px;
@@ -552,9 +560,9 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     font-size: 1.5rem;
     text-align: center;
  }
-/*pagina de "NOSOTROS"*/
+/*PAGINA DE "NOSOTROS"*/
 
-/*pagina de "GRUPOS"*/
+/*PAGINA DE "GRUPOS"*/
 
 .video {
     width: 30%;
@@ -584,14 +592,13 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     margin-bottom: 0%;       
 }
 
+/*PAGINA DE "GRUPOS"*/
 
-/*pagina de "GRUPOS"*/
-
-/*pagina de "IMC"*/
+/*PAGINA DE "IMC"*/
 
 .nutricion4 {
-    width: 1100px;
-    margin-left: 22%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 10%;
     padding: 20px 20px;
     padding-bottom: 0px 0px;
@@ -618,8 +625,8 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }
 
 .nutricion3 {
-    width: 1100px;
-    margin-left: 22%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 10%;
     padding: 20px 20px;
     padding-bottom: 0px 0px;
@@ -644,25 +651,7 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     float: left;
     margin-left: 3%;
 }
-.nutricion6{
-    width: 800px;
-    margin-top: 5%;
-    padding: 0px 20px;
-    padding-bottom: 0px 0px;
-    font-size: 15px;
-    line-height: 1.5;
-    background-color: rgb(218, 233, 104);
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    border-radius: 5px;
-    text-align: justify;
-    display: flex;
-    justify-content: space-between;
-    font-size: 3rem;
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    font-weight: bold;
-    margin-left: 29.5%;
-}
+
 
 .imc1{
     margin-left: 5%;
@@ -692,9 +681,9 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
    margin-top: -10%;
  }
 
-/*pagina de "IMC"*/
+/*PAGINA DE "IMC"*/
 
-/*pagina de "CONTACTO"*/
+/*PAGINA DE "CONTACTO"*/
 
 .nutricion5{
     width: 30%;
@@ -730,37 +719,18 @@ margin-top: 0%;
     background-color: rgb(218, 233, 104);
     border-radius: 5px;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    padding: 2%;
-    padding-bottom: 45%;
-    padding-top: 2%;
-    padding-left: 2.5%;
-    height: 400px;
-    width: 500px;
-    margin-left: 37%;
+    padding: 0%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height:40%;
+    width: 40%;
+    margin-left: 30%;
     font-size: 1rem;
     margin-top: 8%;
+    margin-bottom: -10%;
     font-weight: bold;
-}
-
-.tabla2 {
-    margin-left: 0%;
-    margin-top: 5%;
-    height: 50px;
-    width: 380px;
-    margin-bottom: 10%;
-    padding: 3%;
-}
-
-.tabla3 {
-    margin-left: 8%;
-    margin-top: -5%;
-}
-
-.mensaje {
-    width: 95%;
-    height: 115%;
-    border-radius: 1PX;
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }
 
 
@@ -769,19 +739,35 @@ margin-top: 0%;
     border-radius: 1PX;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     font-weight: bold;
-    margin-bottom: 10%;
-    margin-left: 34.5%;
-    margin-top: 10%;
-    width: 15%;
-    height: 35%;
+    margin-bottom: 0%;
+    margin-left: 45%;
+    margin-top: 0%;
+    width: 10%;
+    height: 10%;
 }
+
+.mensaje{
+    margin-left: 0%;  
+}
+
+.mensaje1 {
+   padding-top: 2%;
+   margin-top: 2.5%;
+}
+ .mensaje2{
+   padding-bottom: 15%;
+   margin-top: 1%;
+ }
+
+.mensaje3 {
+    padding-top: 2%;
+    margin-top: 2.5%;   
+  }
 
 .tabla5{
 border-radius: 1PX;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 }
-
-
 
 .boton2{
     height: 50PX;
@@ -818,7 +804,7 @@ border-radius: 1PX;
     width: 100%;
     height: 30%;
 }
-/*pagina de "CONTACTO"*/
+/* PAGINA DE "CONTACTO"*/
 
 /*FIN DEL MAIN*/
 
@@ -827,7 +813,7 @@ footer{
 background-image: linear-gradient(to top, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
 width: 100%;
 height: 50%;
-padding-bottom: 1%;
+padding-bottom: 5%;
 }
 
 .red{
@@ -872,118 +858,178 @@ list-style-type: none;
 position: fixed;
 bottom: 30px;
 right: 30px;
-position: fixed;
 line-height: 55px;
 }      
       
-   
-.nav11 {
-    text-align: center;
-    margin-left: 50%;
-    margin-bottom: 2%;
-}
-.nav12 {
-    background-color: rgb(218, 233, 104);
-    border-radius: 5px;
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    font-size: 1rem;
-    font-weight: bold;
-    margin-left: -80%;
-}
-.nav13 {
-    background-color: rgb(218, 233, 104);
-    border-radius: 5px;
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    font-size: 1rem;
-    font-weight: bold;
-    margin-left: 10%;
-}
-.nav14 {
-    background-color: rgb(218, 233, 104);
-    border-radius: 5px;
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    font-size: 1rem;
-    font-weight: bold;
-    margin-left: 10%;
-}
-.nav15 {
-    background-color: rgb(218, 233, 104);
-    border-radius: 5px;
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    font-size: 1rem;
-    font-weight: bold;
-    margin-left: 10%;
-}
-    
-.nav12 :hover {
-    background: #d8df04;
-    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-    transition: .4s ease-in;
-}
-.nav13 :hover {
-    background: #d8df04;
-    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-    transition: .4s ease-in;
-}
-.nav14 :hover {
-    background: #d8df04;
-    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-    transition: .4s ease-in;
-}
-.nav15 :hover {
-    background: #d8df04;
-    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-    transition: .4s ease-in;
-}
+
 /*FIN DEL FOOTER*/
 
-/*CELULAR O PANTALLAS MENORES A 768PX*/
+/* INICIO (CELULAR O PANTALLAS MENORES A 768PX) */
 
-@media (max-width: 768px) {
+@media (max-width: 412px) {
+     .infonutri{
+        width: 100%;
+        height: 40%;
+        margin-top: -20%;
+     }
+    
+         .logo {
+             width: 45%;
+             margin-top: 5%;
+         }
     h1 {
-            font-size: 1rem;
-         
-    
+        font-size: 1rem;
         }
-    
-        h2 {
-            font-size: 1rem;
-            
+    .nutricion{
+        padding-top: 40%;
+    }
+
+    .nutricion1{
+        font-size: 2rem;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+    }
+     .nutricion2 {
+        width: 100%;
+        margin-left: 3%;
+        margin-top: 10%;
+        
+        font-size: 5px;
+        line-height: 1.5;
+        text-align: justify;
+        display: flex;
+        justify-content: space-between;
+        }
+     .nutricion7 {
+          margin-bottom: 10%;
+          width: 80%;
+          margin-left: 12%;
+          margin-top: 10%;
+          padding: 20px 20px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+     h2 {
+         font-size: 1rem;
         }
     
         h3 {
-            font-size: 1rem;
-          
-            margin-bottom: 10vh;
+        font-size: 1rem;
+        margin-bottom: 10vh;
         }
     
         h4 {
-           
-            font-size: 1.1rem;
-            
+           font-size: 1.1rem;   
         }
     
         .p1 {
-            font-size: 2rem;
+            font-size: 1rem;
             font-family: 'Merriweather', serif;
             text-align: center;
-            padding-top: 0%;
-            margin: 0%;
+            padding-right: 3%;
+            padding-top: 5%;
             font-weight: bold;
             margin-bottom: 0vh;
-            text-align: justify;
+            text-align: center;
+            text-align: justify;  
         }
-    
-        .p2 {
-            font-size: 2rem;
-            font-family: 'Merriweather', serif;
-            text-align: center;
-            padding-top: 0%;
-            margin: 0%;
-            font-weight: bold;
-            margin-bottom: 0vh;
-            text-align: center;
-            text-align: justify;
+    .nav2{
+    margin-left: 0%;
+    }
+     .nav3{
+    margin-left: 0%;
+    }
+     .nav4{
+    margin-left: 0%;
+    }
+   .nav6 {
+    margin-left: 0%;
+   }
+   
+   .nav7 {
+    margin-left: 0%;
+
+   }
+
+
+        .tabla{
+         height: 90%;
+         width: 90%;
+         margin-left: 5%;
+        }
+         .galeria {
+                    margin-left: 17%;
+                    margin-top: 0%; 
+                    width: 65%;
+                    height: 65%;
+                }
+        .galeria4 {
+                      margin-left: 20%;
+                    margin-top: 0%; 
+                    width: 60%;
+                    height: 60%;
+        }
+        .galeria5 {
+                       margin-left: 20%;
+                    margin-top: 0%; 
+                    width: 60%;
+                    height: 60%;
+                 }
+        .galeria6 {
+                       margin-left: 20%;
+                    margin-top: 0%; 
+                    width: 60%;
+                    height: 60%;
+        }
+        .galeria7 {
+                        margin-left: 20%;
+                    margin-top: 0%; 
+                    width: 60%;
+                    height: 60%;
+                 }
+        .galeria8 {
+                       margin-left: 20%;
+                    margin-top: 0%; 
+                    width: 60%;
+                    height: 60%;
+                }
+         .galeria9 {
+                    margin-left: 20%;
+                        margin-top: 0%;
+                        width: 60%;
+                        height: 60%;
+                 }
+        .tabla4{
+            width: 30%;
+            margin-left: 36%;
         }
 
+        .red1 {
+            margin-left: -8%;
+            margin-bottom: -3%;
+            width: 8%;
+        }
+        
+        .red2 {
+            margin-bottom: -7%;
+            margin-left: -8%;
+            width: 8%;
+         }
+        
+        .red3 {
+            margin-left: -8%;
+            margin-bottom: -13%;
+            width: 8%;
+        }
+
+        .wpp{
+            margin-bottom: -10%;
+    
+        }
+        .copy{
+            margin-top: 10%;
+        }
 }
+/* fINAL (CELULAR O PANTALLAS MENORES A 768PX) */
