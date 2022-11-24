@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--CORREGIR CSS-->
 <html lang="es">
 
 <head>
@@ -6,87 +7,378 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InfoNutri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/images/LOGO FAVICON.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <header>
-        <nav class="Navegador">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="informacion.html">Informacion</a></li>
-                <li><a href="imc.html">IMC</a></li>
-                <li><a href="contacto.html">Contactos</a></li>
-            </ul>
-        </nav>
-        <nav class="Navegador2">
-            <ul>
-                <!--Aqui colocare ventanas emergentes para cada uno-->
-                <li><a href="#">Registrate</a></li>
-                <li><a href="#">Ingresar</a></li>
-            </ul>
-        </nav>
-        <div>
-            <div>
-                <img class="logoproyecto" src="../assets/images/LOGO PAGINA.png" alt="logo del proyecto">
-                <img class="infonutri" src="../assets/images/Letra logo.png" alt="Letra del logo">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid nav1">
+                <a class="navbar-brand logo" href="../index.html"> <img class="infonutri" src="../assets/images/logo.png"
+                        alt="Letra del logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item nav2">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item nav3">
+                            <a class="nav-link active" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown nav4">
+                            <a class="nav-link dropdown-toggle active" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Grupos
+                            </a>
+                            <ul class="dropdown-menu nav5" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="../pages/verduras.html">Verduras</a></li>
+                                <!--Aca solo colocare una pagina de informacion, para el proyecto final estaran todas-->
+                                <li><a class="dropdown-item" href="../pages/frutas.html">Frutas</a></li>
+                                <li><a class="dropdown-item" href="../pages/carnes.html">Carnes</a></li>
+                                <li><a class="dropdown-item" href="../pages/lacteos.html">Lacteos</a></li>
+                                <li><a class="dropdown-item" href="../pages/Legumbres.html">Legumbres, cereales y harinas</a></li>
+                                <li><a class="dropdown-item" href="../pages/frutossecos.html">Frutos secos, aceites y semillas</a></li>
+                                <li><a class="dropdown-item" href="../pages/grasas.html">Grasas (opcionales)</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav6">
+                            <a class="nav-link active" href="../pages/imc.html">IMC</a>
+                        </li>
+                        <li class="nav-item nav7">
+                            <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
     </header>
-    <main class="main11">
+    <main class="main8">
+        <div class="nutricion">
+            <div data-aos="zoom-out" class="nutricion1">
+                <h1>FRUTOS SECOS,ACEITES Y SEMILLAS</h1>
+            </div>
+        </div>
         <section>
-            <h1>FRUTOS SECOS</h1>
-            <P class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt animi laudantium non dolorum
-                quasi
-                asperiores,
-                molestias
-                numquam, fugiat incidunt, voluptatum accusamus inventore ad sequi magnam a officiis saepe. Laborum,
-                accusamus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt animi laudantium non dolorum
-                quasi
-                asperiores, molestias
-                numquam, fugiat incidunt, voluptatum accusamus inventore ad sequi magnam a officiis saepe. Laborum,
-                accusamus.
-            </P>
+            <div>
+                <div data-aos="zoom-out" class="nutricion2">
+                    <div>
+                        <P class="p1">
+                        Se conoce como fruto seco aquel fruto que en su composición natural (sin manipulación),
+                        contiene menos de un 50% de agua.Poseen, por lo general, una cáscara dura, como la almendra, las castañas, la nuez, pistachos y
+                        avellanas.
+                        </P>
+                    </div>
+                </div>
+            <div>
+                <div>
+                    <div data-aos="zoom-out" class="nutricion2">
+                        <div>
+                            <P class="p1">
+                                Los aceites son líquidos llenos de grasa que obtenemos de las semillas o los frutos oleaginosos, es decir, los que
+                                contienen muchas grasas. El aceite de oliva lo obtenemos de la aceituna, estrujándola para que salga todo su aceite. El
+                                aceite de girasol de las pipas o semillas de girasol, pero en este caso las pipas, después de triturarlas las tratamos
+                                con disolventes, para que así se extraiga todo su aceite. También son aceites de semillas el aceite de soja o maíz.
+                                Algunas veces hay que refinar el aceite, para que sea menos ácido, tenga mejor sabor y olor y para que no contenga
+                                restos de las semillas que lo hagan estropear. Este refinado se hace siempre en los aceites de semillas, como el
+                                girasol, y algunas veces en el aceite de oliva.
+                            </P>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div data-aos="zoom-out" class="nutricion2">
+                                <div>
+                             <P class="p1">
+                                  Las semillas son plantas embrionarias que constituyen el origen nutricional de la planta, es por ello que contienen
+                                  concentraciones de vitaminas, minerales, proteínas, aceites esenciales, hidratos de carbono y fibra.
+                            </P>
+                    </div>
+                </div>
+            <div>
         </section>
         <section>
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/J17rLKjzcZ4"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                <h2 data-aos="zoom-out" class="nutricion1">TIPOS, CARACTERISTICAS E INFORMACION</h2>
+                <h3 data-aos="zoom-out" class="nutricion1">FRUTOS SECOS</h3> 
+                <div data-aos="zoom-out" class="nutricion2">
+                    <div>
+                        <P class="p2">
+                            Los frutos secos brindan grandes beneficios al cuerpo humano. Aportan diferentes nutrientes que, incorporados como parte
+                            de una alimentación variada y adecuada, permiten un buen funcionamiento de nuestro organismo. 
+                            <img src="../assets/images/IMAGENES GRUPOS/foto semillas texto.jpg" alt="">
+                            <br>
+                            <br>
+                            Se clasifican en:
+                            <br>
+                            <br>
+                            • Almendra.
+                            <br>
+                            • Avellana.
+                            <br>
+                            • Castaña.
+                            <br>
+                            • Castaña de Cajù.
+                            <br>
+                            • Nuez de Pará.
+                            <br>
+                            • Nuez.
+                            <br>
+                            • Pecán.
+                            <br>
+                            • Pistacho.
+                            <br>
+                            <br>
+                            Son un grupo de alimentos muy energéticos y completos ya que aportan vitaminas, minerales, proteínas y ácidos grasos
+                            insaturados, entre otros. Además, son ricos en fibra y antioxidantes, lo cual ayuda en la prevención de enfermedades
+                            degenerativas y enlentece el proceso de envejecimiento.
+                            <br>
+                            En cuanto a su composición, aportan un 7% de hidratos de carbono, un 20% de proteínas, y el 57% es aportado por grasas.
+                            Debido a esto último, es importante no abusar del consumo de estos alimentos. Una cantidad adecuada a diario es
+                            suficiente y aporta nutrientes con funciones muy importantes.
+                            <br>
+                            Las grasas que predominan en los frutos secos son los ácidos grasos insaturados. Los ácidos grasos poliinsaturados
+                            (omega 3 y omega 6) se encuentran principalmente en nueces, mientras que los monoinsaturados (omega 9) están en mayor
+                            cantidad en almendras, avellanas y pistachos. Además, son alimentos que, como todos los alimentos de origen vegetal, no
+                            contienen colesterol y aportan Vitamina E, Vitaminas B, minerales, calcio y fibras.
+
+                        </P>
+                    </div>
+                </div>
+            </div>  
+                <div>
+                    <h3 data-aos="zoom-out" class="nutricion1">ACEITES</h3>
+                    <div data-aos="zoom-out" class="nutricion2">
+                        <div>
+                            <P class="p2">
+                            • Aceite de oliva virgen extra.
+                            <br>
+                            <br>
+                            El aceite de oliva contiene grasas saturadas y es uno de los más destacados por sus nutrientes. Es probablemente el
+                            aceite de mayor calidad y cuenta en su interior con una gran cantidad de ácidos grasos poliinsaturados, elementos
+                            necesarios para mantener los niveles de inflamación bajo control. Muchos medios afirman que la ingesta regular de este
+                            tipo de grasa contribuye a reducir el riesgo cardiovascular, pero eso sí, habrá que asegurar que la dieta es equilibrada
+                            en cuanto a energía.
+                            <br>
+                            <br>
+                            • Aceite de coco.
+                            <br>
+                            <br>
+                            En este caso nos referimos a un tipo de lípido sólido a temperatura ambiente que resiste relativamente bien los cambios
+                            de temperatura. Se puede usar para cocinar, ya que no presenta una tasa de transformación elevada de sus ácidos grasos a
+                            tipo trans. Estos últimos han demostrado afectar negativamente al estado de salud, aumentando los niveles de inflamación
+                            e incrementando la incidencia de las patologías crónicas y complejas.
+                            <br>
+                            <br>
+                            • Aceite de girasol.
+                            <br>
+                            <br>
+                            Es uno de los más utilizados, pero su calidad es muy inferior al del aceite de oliva. Cuenta también con lípidos de tipo
+                            insaturado en su interior, siendo en este caso los más predominantes los de la serie omega 6. Son necesarios para que el
+                            organismo funcione de manera adecuada, pero en dosis controladas. En líneas generales se debería asegurar un equilibrio
+                            entre la ingesta de dichos elementos y los ácidos grasos omega 3.
+                            <br>
+                            <br>
+                            • Aceite de semillas.
+                            <br>
+                            <br>
+                            Normalmente presentan un grado de refinamiento elevado. Son inestables y no soportan bien las altas temperaturas. No es
+                            muy positivo que aparezcan de manera frecuente en la pauta, aunque en crudo se podrían consumir. Es relativamente
+                            habitual su inclusión en platos de la gastronomía oriental y poco a poco han ganado peso en otras culturas. Uno de los
+                            más habituales es el aceite de sésamo.
+                            <br>
+                            <br>
+                            • Aceite de palma.
+                            <br>
+                            <br>
+                            La grasa de palma es una de las más demonizadas en la actualidad, y con razón. Hablamos de un producto que destaca por
+                            presentar una alta tasa de ácidos grasos de tipo saturado, con la característica de que sus enlaces son muy inestables.
+                            No soportan nada bien las temperaturas elevadas, ya que enseguida se transforman en lípidos trans. Cuanto menos
+                            aparezcan esta clase de elementos en la dieta mejor, ya que provocarán patologías con el paso de los años.
+
+                            </P>
+                        </div>
+                    </div>
+                </div>
+                    <div>
+                        <h3 data-aos="zoom-out" class="nutricion1">SEMILLAS</h3>
+                        <div data-aos="zoom-out" class="nutricion2">
+                            <div>
+                            <P class="p2">
+                            • Semillas de girasol.
+                            <br>
+                            <br>
+                            Contienen fibra soluble e insoluble. La característica de la fibra soluble es retener agua y
+                            formar geles que enlentecen el vaciamiento gástrico, la absorción de glucosa y colesterol.
+                            La fibra insoluble tiene por característica aumentar el volumen de la materia fecal, estimular
+                            la motilidad intestinal, previniendo los problemas digestivos. Poseen grasas insaturadas
+                            (“Omega 6”) que son llamadas grasas buenas ya que son importantes para el metabolismo
+                            celular y también actúan como precursores de otros ácidos grasos no esenciales,
+                            importantes para el organismo. Asimismo, resultan fundamentales para un desarrollo normal del feto y durante el primer
+                            año y medio de vida.
+                            Las semillas de girasol son fuente de vitamina E, una vitamina con alto poder antioxidante. Además, contiene vitaminas
+                            B1, B2, B3; así como también minerales como el fósforo, potasio, hierro de baja biodisponibilidad.
+                            Se pueden consumir tostadas y sin tostar.
+                            <br>
+                            <br>
+                            • Semillas de sésamo.
+                            <br>
+                            <br>
+                            Son ricas en ácidos grasos insaturados. Éstos, junto a la lecitina – sustancia grasa- contribuyen a
+                            disminuir los niveles de colesterol sanguíneo. Además, son ricas en metionina, aminoácido esencial
+                            que debe ser incorporado por los alimentos ya que el cuerpo no lo puede sintetizar, contiene un alto
+                            contenido en azufre, mineral que resulta beneficioso para la piel, las uñas y el cabello.
+                            Aportan también vitamina E que actúa como antioxidante y vitaminas del complejo B que ayudan al
+                            funcionamiento del sistema nervioso.
+                            Poseen un buen aporte de calcio, el cual se encuentra mayoritariamente en la cáscara y se presenta
+                            en forma de oxalato de calcio por lo tanto es de baja biodisponibilidad. Contienen además, en menor medida, fósforo,
+                            hierro y magnesio. Tienen un alto contenido en fibra lo que favorece la función intestinal.
+                            La forma de consumo para aprovechar sus nutrientes es remojada o molida en el momento de consumo.
+                            <br>
+                            <br>
+                            • Semillas de chia.
+                            <br>
+                            <br>
+                            Tienen un alto contenido en Omega 3, el cual ayuda a reducir los niveles de colesterol LDL, y en consecuencia
+                            contribuye a evitar las placas de ateroma, conservar las arterias limpias favoreciendo el flujo sanguíneo y el
+                            mantenimiento de los niveles normales de presión arterial.
+                            Son una fuente completa de proteínas ya que contienen casi todos los aminoácidos
+                            esenciales –sustancias que el organismo no puede fabricar y que son necesarios
+                            incorporar mediante una fuente externa como es la alimentación-. Entre los que se
+                            destacan la lisina, así como el porcentaje de metionina y cistina es mayor que el de
+                            otras oleaginosas.
+                            Contiene además hidratos de carbono que se presentan mayormente en forma de
+                            fibra soluble e insoluble, las cuales otorgan variados beneficios a los procesos
+                            digestivos, regulando y mejorando el tránsito intestinal.
+                            Son ricas en calcio (pero de baja biodisponibilidad), fósforo, potasio, zinc,
+                            manganeso, cobre, vitamina E y es una buena fuente de vitaminas del complejo B (fundamentalmente niacina) estas
+                            evitarían el riesgo de sufrir enfermedades cardiovasculares.
+                            <br>
+                            <br>
+                            • Semillas de lino.
+                            <br>
+                            <br>
+                            Tienen diversas utilidades tanto en la alimentación humana como animal, y se utilizan
+                            en la industria como colorante y tinta.
+                            Aportan diversos nutrientes como hidratos de carbono, fibra, proteínas, grasas
+                            insaturadas (Omega 3), vitaminas del complejo B y E, minerales como el calcio,
+                            magnesio, fósforo, potasio, zinc, cobre, manganeso, entre otros.
+                            Las cualidades que se les atribuyen es que actuan como antioxidantes,
+                            anticoagulantes, antiinflamatorios, como así también tendrían efectos sobre la
+                            disminución del colesterol y aumentarían las defensas.
+                            Una manera de consumirlas es hidratarlas el día anterior a su consumo, y luego molerlas, ya que resulta muy difícil su
+                            incorporación en la dieta, debido a que no se digieren fácilmente.
+                            Otra forma de poder aprovechas sus nutrientes es molerlas usando un mortero o un molinillo de café.
+                            <br>
+                            <br>
+                            <h4>• Semillas de zapallo.</h4>
+                            <br>
+                            <br>
+                            Las pepitas de calabazas aportan proteínas, y una buena cantidad de ácidos
+                            grasos esenciales (Omega 3) que ayudan a disminuir el colesterol, la
+                            hipertensión. Además brindan Omega 6 que resulta beneficioso para el buen
+                            funcionamiento del aparato circulatorio.
+                            Aportan también vitamina E, ácido fólico y vitaminas del complejo B. En
+                            cuanto al aporte de minerales se pueden mencionar el fósforo, magnesio,
+                            hierro, zinc, cobre y selenio.
+                            Una de sus propiedades más conocidas es la capacidad de eliminar parásitos
+                            intestinales gracias a la presencia de una sustancia denominada curcurbitacina o cucurbitita.
+                            También son utilizadas en tratamientos fitoterapeuticos ya que actuaría en forma benéfica en hiperplasias benignas de
+                            próstata.
+                            Las pipas de calabaza deben tostarse para que no pierdan sus grasas insaturadas y también porque resultan más
+                            sabrosas.
+
+                             </P>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <h2 data-aos="zoom-out" class="nutricion1">VIDEOS INFORMATIVOS</h2>
+            <div data-aos="fade-right"class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JsRd5tH0CMI" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div data-aos="fade-left" class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yDRzUTsYf9k" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
+            <div data-aos="fade-right" class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MTo1s2S-Oy8" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <section>
+                <div>
+                    <h3 data-aos="zoom-out" class="nutricion8">PAGINAS INFORMATIVAS</h3>
+                </div>
+                <section data-aos="fade-right" class="galeria5">
+                    <div class="card galeria1">
+                        <img src="../assets/images/IMAGENES ACEITES/PAGINA 1.png" class="card-img-top"
+                            alt="foto carnes">
+                        <div class="card-body">
+                            <a href="https://nestlefamilyclub.es/articulo/los-frutos-secos-y-semillas-contribuyen-al-mantenimiento-de-la-salud-cardiovascular"
+                                class="btn btn-primary galeria3">Ir</a>
+                        </div>
+                    </div>
+                </section>
+                <section data-aos="fade-left" class="galeria6">
+                    <div class="card galeria1">
+                        <img src="../assets/images/IMAGENES ACEITES/PAGINA 2.png" class="card-img-top"
+                            alt="foto lacteos">
+                        <div class="card-body">
+                            <a href="https://www.vitonica.com/alimentos/los-distintos-tipos-de-aceites-sus-nutrientes-y-propiedades"
+                                class="btn btn-primary galeria3">Ir</a>
+                        </div>
+                    </div>
+                </section>
+            </section>
         </section>
     </main>
     <footer>
         <section>
-            <li><a class="red" href="https://www.facebook.com/ " target="_blank">Facebook</a></li><img class="red2"
-                src="../assets/images/icono facebook.png" alt="Logo Facebook">
+            <ul class="red">
+                <li><a href="https://www.facebook.com//" target="_blank">
+                        <img class="red1" src="../assets/images/icono facebook.png" alt="Logo Facebook">
+                    </a></li>
 
-            <li><a class="red" href="https://www.instagram.com/" target="_blank">Instagram</a></li><img class="red2"
-                src="../assets/images/icono instagram.png" alt="Logo Instagram">
+                <li><a href="https://www.instagram.com/" target="_blank">
+                        <img class="red2" src="../assets/images/icono instagram.png" alt="Logo Instagram">
+                    </a></li>
 
-            <li><a class="red" href="https://twitter.com/" target="_blank">twitter</a></li><img class="red2"
-                src="../assets/images/icono twitter.png" alt="logo instagram">
+                <li></li><a href="https://twitter.com/" target="_blank">
+                    <img class="red3" src="../assets/images/icono twitter.png" alt="logo twitter">
+                </a></li>
+            </ul>
         </section>
+
         <section>
-            <li><a class="wpp" href="https://web.whatsapp.com/" target="_blank">whatsapp</a><img class="logowpp"
-                    src="../assets/images/icono wpp.png" alt="Logo whatsapp">
-        </section>
-        <div class="PieDePagina">
-            <p>InfoNutri.com - todos los derechos reservados - Copyright © 2022</p>
-        </div>
-        <section>
-            <nav class="Navegacion3">
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./informacion.html">Informacion</a></li>
-                    <li><a href="./imc.html">IMC</a></li>
-                    <li><a href="./contacto.html">Contactos</a></li>
-                </ul>
-            </nav>
-        </section>
+            <a class="wpp" href="https://web.whatsapp.com/" target="_blank">
+                <img class="logowpp" src="../assets/images/icono wpp.png" alt="Logo whatsapp">
+            </a>
+            <div>
+                <p class="copy">InfoNutri.com - todos los derechos reservados - Copyright © 2022</p>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

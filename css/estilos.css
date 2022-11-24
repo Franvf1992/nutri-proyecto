@@ -225,6 +225,17 @@ margin-top: -5%;
     margin-left: 10%;  
  }
 
+.nutricion8{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    font-size: 3rem;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+} 
 
 .main2 {
     width: 100%;
@@ -291,24 +302,14 @@ margin-top: -5%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../assets/images/FONDOS/fondo\ carne.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    overflow: hidden;
-}
-.main9 {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../assets/images/FONDOS/fondo\ grasas.jpg);
+    background-image: url(../assets/images/FONDOS/fondo\ aceite.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
 }
 
-.main10 {
+.main9 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -318,11 +319,21 @@ margin-top: -5%;
     background-size: cover;
     overflow: hidden;
 }
+.main10 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../assets/images/FONDOS/fondo\ grasas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
 .main11 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(../assets/images/FONDOS/fondo\ aceite.jpg);
+    background-image: url(../assets/images/FONDOS/fondo\ carne.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -473,10 +484,11 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
  /*PAGINA DE "NOSOTROS"*/
 
  .testicuadro1 {
-  width: 30%;
+  width: 32%;
   margin-left: 10%;
   margin-top: 10%;
-  padding: 10px;
+  padding: 0.5%;
+  padding-top: 1%;
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
@@ -491,8 +503,8 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 .testicuadro2 {
   width: 30%;
   margin-left: 55%;
-  margin-top: -23.5%;
-  padding: 10px;
+  margin-top: -26%;
+  padding: 0.5%;
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
@@ -592,6 +604,16 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     margin-bottom: 0%;       
 }
 
+.carne{
+ width: 65%;
+ height: 65%;
+}
+
+.carne1 {
+    margin-right: -50%;
+    width: 200%;
+    height: 200%;
+}
 /*PAGINA DE "GRUPOS"*/
 
 /*PAGINA DE "IMC"*/
@@ -652,6 +674,26 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
     margin-left: 3%;
 }
 
+.nutricion5 {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 0px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: rgb(218, 233, 104);
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+
+}
 
 .imc1{
     margin-left: 5%;
@@ -684,27 +726,6 @@ box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 /*PAGINA DE "IMC"*/
 
 /*PAGINA DE "CONTACTO"*/
-
-.nutricion5{
-    width: 30%;
-    margin-left: 35%;
-    margin-top: -5%;
-    padding: 0px 20px;
-    padding-bottom: 0px 0px;
-    font-size: 15px;
-    line-height: 1.5;
-    background-color: rgb(218, 233, 104);
-    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-    border-radius: 5px;
-    text-align: justify;
-    display: flex;
-    justify-content: space-between;
-    font-size: 3rem;
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    font-weight: bold;
-    
-}
 
 .infonutri2{
 border-radius: 5px;
