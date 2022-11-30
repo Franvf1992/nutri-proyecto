@@ -1,10 +1,28 @@
-@import url("https://fonts.googleapis.com/css2? family= Merriweather & display=swap");
+@import "https://fonts.googleapis.com/css2? family= Merriweather & display=swap";
+
+/*COMIENZO DEL HEADER*/
+/*FIN DEL HEADER*/
+/*COMIENZO DEL MAIN - PAGINA DE INICIO*/
+/* FIN DEL MAIN Y PAGINA DE "INICIO" */
+/*PAGINA DE "NOSOTROS"*/
+/*PAGINA DE "NOSOTROS"*/
+/*PAGINA DE "GRUPOS"*/
+/*PAGINA DE "GRUPOS"*/
+/*PAGINA DE "IMC"*/
+/*PAGINA DE "IMC"*/
+/*PAGINA DE "CONTACTO"*/
+/* PAGINA DE "CONTACTO"*/
+/*FIN DEL MAIN*/
+/*COMIENZO DEL FOOTER*/
+/*FIN DEL FOOTER*/
+/* INICIO (CELULAR O PANTALLAS MENORES A 768PX) */
+/* fINAL (CELULAR O PANTALLAS MENORES A 768PX) */
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-/*COMIENZO DEL HEADER*/
 header {
   background-image: linear-gradient(to bottom, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
   position: fixed;
@@ -12,17 +30,20 @@ header {
   left: 0;
   right: 0;
   height: 155px;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .nav1 {
   list-style-type: none;
   text-align: center;
   padding-top: 50px;
-  margin-top: 0%; }
+  margin-top: 0%;
+}
 
 ul {
   width: 99%;
-  justify-content: end; }
+  justify-content: end;
+}
 
 .nav2 {
   background-color: #dae968;
@@ -30,35 +51,35 @@ ul {
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   font-size: 1rem;
   font-weight: bold;
-  margin-left: 1%; }
+  margin-left: 1%;
 
-  .nav2 :hover {
-      background: #d8df04;
-      box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-      transition: .4s ease-in;
+  &:hover {
+    background: #d8df04;
+    box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+    transition: .4s ease-in;
   }
-
-.nav3 {
-      background-color: #dae968;
-      border-radius: 5px;
-      box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-      font-size: 1rem;
-      font-weight: bold;
-      margin-left: 1%;
-    }
-
-.nav5 {
-  width: 300%; 
-  background-color: #dae968;
-  font-weight: bold;
 }
 
+.nav3 {
+  background-color: #dae968;
+  border-radius: 5px;
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 1%;
+}
 
-.nav5 :hover {
-  background: #15eb05;
+.nav5 {
+  width: 300%;
+  background-color: #dae968;
+  font-weight: bold;
+
+  &:hover {
+    background: #15eb05;
     box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
-  transition: .4s ease-in; }
-
+    transition: .4s ease-in;
+  }
+}
 
 .infonutri {
   margin-top: -5%;
@@ -67,13 +88,13 @@ ul {
   height: 8%;
   width: 100%;
   border-radius: 5px;
-  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45); }
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+}
 
 .logo {
-  width: 13%; }
+  width: 13%;
+}
 
-/*FIN DEL HEADER*/
-/*COMIENZO DEL MAIN - PAGINA DE INICIO*/
 .main1 {
   width: 100%;
   margin-left: auto;
@@ -126,8 +147,10 @@ ul {
 .main11 {
   background-image: url(../assets/images/FONDOS/fondo\ carne.jpg);
 }
+
 .nutricion {
-  padding-top: 0%; }
+  padding-top: 0%;
+}
 
 .nutricion1 {
   width: 50%;
@@ -136,9 +159,10 @@ ul {
   margin-bottom: 0%;
   font-size: 3rem;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .nutricion2 {
   width: 50%;
@@ -148,22 +172,24 @@ ul {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
 
-.nutricion2 img {
-  width: 350px;
-  height: 250px;
-  border-radius: 5px;
-  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
-  margin-left: 10%; }
+  img {
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 10%;
+  }
+}
 
 .nutricion8 {
   width: 50%;
@@ -172,17 +198,17 @@ ul {
   margin-bottom: 10%;
   font-size: 3rem;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-  border-radius: 5px; 
+  border-radius: 5px;
 }
-
 
 h1 {
   font-size: 3rem;
   font-family: 'Merriweather', serif;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 h2 {
   font-size: 3rem;
@@ -190,7 +216,8 @@ h2 {
   margin: 8%;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20vh; }
+  margin-bottom: 20vh;
+}
 
 h3 {
   font-size: 3rem;
@@ -198,13 +225,15 @@ h3 {
   margin: 8%;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20vh; }
+  margin-bottom: 20vh;
+}
 
 h4 {
   color: #09c80f;
   font-weight: bold;
   font-size: 2.1rem;
-  font-family: 'Merriweather', serif; }
+  font-family: 'Merriweather', serif;
+}
 
 .p1 {
   font-size: 2rem;
@@ -214,7 +243,8 @@ h4 {
   margin: 0%;
   font-weight: bold;
   margin-bottom: 0vh;
-  text-align: justify; }
+  text-align: justify;
+}
 
 .p2 {
   font-size: 2rem;
@@ -225,14 +255,17 @@ h4 {
   font-weight: bold;
   margin-bottom: 0vh;
   text-align: center;
-  text-align: justify; }
+  text-align: justify;
+}
 
 .galeria {
   margin-left: 30%;
+  margin-top: -10%;
   padding-bottom: 10%;
   padding-top: 10%;
   width: 20%;
-  height: 20%; }
+  height: 20%;
+}
 
 .galeria1 {
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
@@ -253,12 +286,11 @@ h4 {
   width: 80%;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
 
-}
-
-.galeria3:hover {
-  background: #0fc7c1;
-  box-shadow: 0 0 5px #f7f5f5, 0 0 25px #fbf9f9, 0 0 50px #fbfafa, 0 0 200px #f1efef;
-  transition: .2s ease-in;
+  &:hover {
+    background: #0fc7c1;
+    box-shadow: 0 0 5px #f7f5f5, 0 0 25px #fbf9f9, 0 0 50px #fbfafa, 0 0 200px #f1efef;
+    transition: .2s ease-in;
+  }
 }
 
 .galeria4 {
@@ -270,7 +302,6 @@ h4 {
   height: 20%;
 }
 
-
 .galeria5 {
   margin-left: 41%;
   margin-top: -10%;
@@ -280,8 +311,6 @@ h4 {
   height: 20%;
 }
 
-/* FIN DEL MAIN Y PAGINA DE "INICIO" */
-/*PAGINA DE "NOSOTROS"*/
 .testicuadro1 {
   width: 32%;
   margin-left: 10%;
@@ -291,12 +320,13 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .testicuadro2 {
   width: 30%;
@@ -306,12 +336,13 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .testicuadro3 {
   width: 30%;
@@ -321,13 +352,14 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+}
 
 .testicuadro4 {
   width: 30%;
@@ -336,35 +368,38 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
   justify-content: space-between;
   margin-left: 55%;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 .testicuadro5 {
-  padding-bottom: 8%; }
+  padding-bottom: 8%;
+}
 
 .testimonio1 {
   margin-left: 30%;
   height: 220px;
-  width: 220px; }
+  width: 220px;
+}
 
 .testimonio2 {
   text-align: left;
   font-weight: bold;
   font-size: 2.0rem;
-  text-align: center; }
+  text-align: center;
+}
 
 .testimonio3 {
   font-size: 1.5rem;
-  text-align: center; }
+  text-align: center;
+}
 
-/*PAGINA DE "NOSOTROS"*/
-/*PAGINA DE "GRUPOS"*/
 .video {
   width: 30%;
   margin-bottom: 10%;
@@ -375,30 +410,29 @@ h4 {
   padding-top: 2%;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
-  display: flex; }
+  display: flex;
+}
 
 .video2 {
   margin-left: 0%;
-  background-color: #060606;
+  background-color: rgb(6, 6, 6);
   padding: 0.5%;
   border-radius: 5px;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   margin-top: 2%;
-  margin-bottom: 0%; }
-
-
+  margin-bottom: 0%;
+}
 
 .carne1 {
   margin-right: -50%;
   width: 200%;
-  height: 200%; }
+  height: 200%;
+}
 
-/*PAGINA DE "GRUPOS"*/
-/*PAGINA DE "IMC"*/
 .nutricion4 {
   width: 50%;
   margin-left: 25%;
@@ -407,22 +441,23 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
 
-.nutricion4 img {
-  width: 60%;
-  height: 50%;
-  border-radius: 5px;
-  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
-  margin-left: 3%; 
+  img {
+    width: 60%;
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 3%;
+  }
 }
 
 .nutricion3 {
@@ -433,22 +468,23 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
 
-.nutricion3 img {
-  width: 50%;
-  height: 40%;
-  border-radius: 5px;
-  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
-  margin-left: 3%;
+  img {
+    width: 420px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 3%;
+  }
 }
 
 .nutricion5 {
@@ -459,7 +495,7 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
@@ -468,16 +504,19 @@ h4 {
   font-size: 3rem;
   font-family: 'Merriweather', serif;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .imc1 {
-  margin-left: 5%; }
+  margin-left: 5%;
+}
 
 .imc2 {
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+}
 
 .boton {
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   border-radius: 5px;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   margin-left: 37%;
@@ -486,26 +525,27 @@ h4 {
   width: 200px;
   height: 100px;
   font-size: 1rem;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .manzanaimc {
   margin-left: 50%;
   height: 12%;
   width: 12%;
-  margin-top: -10%; }
+  margin-top: -10%;
+}
 
-/*PAGINA DE "IMC"*/
-/*PAGINA DE "CONTACTO"*/
 .infonutri2 {
   border-radius: 5px;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   width: 50%;
   margin-left: 25%;
   margin-bottom: 0%;
-  margin-top: 0%; }
+  margin-top: 0%;
+}
 
 .tabla {
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   border-radius: 5px;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   padding: 0%;
@@ -519,10 +559,11 @@ h4 {
   font-size: 1rem;
   margin-top: 8%;
   margin-bottom: -10%;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .tabla4 {
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   border-radius: 1PX;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   font-weight: bold;
@@ -530,32 +571,39 @@ h4 {
   margin-left: 45%;
   margin-top: 0%;
   width: 10%;
-  height: 10%; }
+  height: 10%;
+}
 
 .mensaje {
-  margin-left: 0%; }
+  margin-left: 0%;
+}
 
 .mensaje1 {
   padding-top: 2%;
-  margin-top: 2.5%; }
+  margin-top: 2.5%;
+}
 
 .mensaje2 {
   padding-bottom: 15%;
-  margin-top: 1%; }
+  margin-top: 1%;
+}
 
 .mensaje3 {
   padding-top: 2%;
-  margin-top: 2.5%; }
+  margin-top: 2.5%;
+}
 
 .tabla5 {
   border-radius: 1PX;
-  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45); }
+  box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
+}
 
 .boton2 {
   height: 50PX;
   width: 100PX;
   margin-left: 47%;
-  margin-top: 5%; }
+  margin-top: 5%;
+}
 
 .nutricion7 {
   margin-bottom: 10%;
@@ -566,64 +614,69 @@ h4 {
   padding-bottom: 0px 0px;
   font-size: 15px;
   line-height: 1.5;
-  background-color: #dae968;
+  background-color: rgb(218, 233, 104);
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   border-radius: 5px;
   text-align: justify;
   display: flex;
-  justify-content: space-between; }
-  
+  justify-content: space-between;
+}
 
 .mapa {
   margin-left: 0%;
-  background-color: #060606;
+  background-color: rgb(6, 6, 6);
   padding: 0.5%;
   border-radius: 5px;
   box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.45);
   margin-top: 2%;
   margin-bottom: 0%;
   width: 100%;
-  height: 30%; }
+  height: 30%;
+}
 
-/* PAGINA DE "CONTACTO"*/
-/*FIN DEL MAIN*/
-/*COMIENZO DEL FOOTER*/
 footer {
   background-image: linear-gradient(to top, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
   width: 100%;
   height: 50%;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+}
 
 .red {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .red1 {
   margin-left: 0%;
   margin-bottom: -4%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .red2 {
   margin-bottom: -8%;
   margin-left: 0%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .red3 {
   margin-left: 0%;
   margin-bottom: -12%;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .copy {
   text-align: center;
   margin-left: -3%;
   font-weight: bold;
   margin-bottom: 0%;
-  padding-bottom: -10%; }
+  padding-bottom: -10%;
+}
 
 .logowpp {
   bottom: 30px;
   right: 30px;
   position: fixed;
-  line-height: 55px; }
+  line-height: 55px;
+}
 
 .wpp {
   margin-left: 90%;
@@ -631,27 +684,37 @@ footer {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  line-height: 55px; }
+  line-height: 55px;
+}
 
-/*FIN DEL FOOTER*/
-/* INICIO (CELULAR O PANTALLAS MENORES A 768PX) */
 @media (max-width: 412px) {
   .infonutri {
     width: 100%;
     height: 40%;
-    margin-top: -20%; }
+    margin-top: -20%;
+  }
+
   .logo {
     width: 45%;
-    margin-top: 5%; }
+    margin-top: 5%;
+  }
+
   h1 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    font-size: 2rem;
+  }
+
   .nutricion {
-    padding-top: 40%; }
+    padding-top: 40%;
+  }
+
   .nutricion1 {
     font-size: 2rem;
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 0%; }
+    margin-bottom: 0%;
+  }
+
   .nutricion2 {
     width: 100%;
     margin-left: 3%;
@@ -660,22 +723,30 @@ footer {
     line-height: 1.5;
     text-align: justify;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+  }
+
   .nutricion7 {
     margin-bottom: 10%;
     width: 80%;
     margin-left: 12%;
     margin-top: 10%;
-    padding: 20px 20px; }
-  h1 {
-    font-size: 2rem; }
+    padding: 20px 20px;
+  }
+
   h2 {
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
   h3 {
     font-size: 1rem;
-    margin-bottom: 10vh; }
+    margin-bottom: 10vh;
+  }
+
   h4 {
-    font-size: 1.1rem; }
+    font-size: 1.1rem;
+  }
+
   .p1 {
     font-size: 1rem;
     font-family: 'Merriweather', serif;
@@ -685,46 +756,68 @@ footer {
     font-weight: bold;
     margin-bottom: 0vh;
     text-align: center;
-    text-align: justify; }
+    text-align: justify;
+  }
+
   .nav2 {
-    margin-left: 0%; }
+    margin-left: 0%;
+  }
+
   .tabla {
     height: 90%;
     width: 90%;
-    margin-left: 5%; }
+    margin-left: 5%;
+  }
+
   .galeria {
     margin-left: 17%;
     margin-top: 0%;
     width: 65%;
-    height: 65%; }
+    height: 65%;
+  }
+
   .galeria4 {
     margin-left: 20%;
     margin-top: 0%;
     width: 60%;
-    height: 60%; }
+    height: 60%;
+  }
+
   .galeria5 {
     margin-left: 20%;
     margin-top: 0%;
     width: 60%;
-    height: 60%; }
+    height: 60%;
+  }
+
   .tabla4 {
     width: 30%;
-    margin-left: 36%; }
+    margin-left: 36%;
+  }
+
   .red1 {
     margin-left: -8%;
     margin-bottom: -3%;
-    width: 8%; }
+    width: 8%;
+  }
+
   .red2 {
     margin-bottom: -7%;
     margin-left: -8%;
-    width: 8%; }
+    width: 8%;
+  }
+
   .red3 {
     margin-left: -8%;
     margin-bottom: -13%;
-    width: 8%; }
-  .wpp {
-    margin-bottom: -10%; }
-  .copy {
-    margin-top: 10%; } }
+    width: 8%;
+  }
 
-/* fINAL (CELULAR O PANTALLAS MENORES A 768PX) */
+  .wpp {
+    margin-bottom: -10%;
+  }
+
+  .copy {
+    margin-top: 10%;
+  }
+}

@@ -79,7 +79,7 @@ header {
     margin-left: auto;
     width: 100%;
     margin-right: auto;
-    background-image: url(../assets/images/FONDOS/fondo\ 1.webp);
+    background-image: url("../assets/images/FONDOS/fondo/1.webp");
     background-color: rgba(11, 11, 11, 0.25);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -378,7 +378,8 @@ h4 {
 /*PAGINA DE "NOSOTROS"*/
 
  .main2 {
-     background-image: url(../assets/images/FONDOS/fondo\ 2.webp);
+     background-image: url("../assets/images/FONDOS/fondo/2.webp");
+    
 
      .nutricion {
         padding-top: 0%;
@@ -593,31 +594,31 @@ h4 {
 /* MAINS DE TODAS LAS PAGINA DE "GRUPOS"*/
 
 .main5 {
-    background-image: url(../assets/images/FONDOS/fondo\ verduras.jpg);
+    background-image: url("../assets/images/FONDOS/fondo/verduras.jpg");
 }
 
 .main6 {
-    background-image: url(../assets/images/FONDOS/fondo\ frutas.jpg);
+    background-image: url("../assets/images/FONDOS/fondo/frutas.jpg");
 }
 
 .main7 {
-    background-image: url(../assets/images/FONDOS/fondo\ lacteos.jpg);
+    background-image: url("../assets/images/FONDOS/fondo/lacteos.jpg");
 }
 
 .main8 {
-    background-image: url(../assets/images/FONDOS/fondo\ aceite.jpg);
+    background-image: url("../assets/images/FONDOS/fondo/aceite.jpg");
 }
 
 .main9 {
-    background-image: url(../assets/images/FONDOS/fondo\ legumbres.webp);
+    background-image: url("../assets/images/FONDOS/fondo/legumbres.webp");
 }
 
 .main10 {
-    background-image: url(../assets/images/FONDOS/fondo\ grasas.jpg);
+    background-image: url("../assets/images/FONDOS/fondo/grasas.jpg");
 }
 
 .main11 {
-    background-image: url(../assets/images/FONDOS/fondo\ carne.jpg);
+    background-image: url("../assets/images/FONDOS/fondo/ carne.jpg");
 }
 
 /*MAINS DE TODAS LAS PAGINA DE "GRUPOS"*/
@@ -644,7 +645,7 @@ h4 {
 /*PAGINA DE "IMC"*/
 
 .main3 {
-    background-image: url(../assets/images/FONDOS/fondo\ 3.webp);
+    background-image: url("../assets/images/FONDOS/fondo/3.webp");
     .boton {
         background-color: #dae968;
         border-radius: 5px;
@@ -688,7 +689,7 @@ h4 {
 /*PAGINA DE "CONTACTO"*/
 
 .main4 {
-    background-image: url(../assets/images/FONDOS/fondo\ 4.webp);
+    background-image: url("../assets/images/FONDOS/fondo/4.webp");
 
         .nutricion1 {
             width: 50%;
