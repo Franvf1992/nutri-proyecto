@@ -1,0 +1,153 @@
+/* PAGINA DE INICIO*/
+.main1 {
+    background-image: url("../assets/images/FONDOS/fondo 1.webp");
+    @include mixin;
+}
+
+.nutricion {
+    padding-top: 0%;
+}
+
+.nutricion1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    font-size: map-get($map: $fuentes, $key: xl);
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+}
+
+.nutricion2 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 20px 20px;
+    padding-bottom: 0px 0px;
+    font-size: 15px;
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutricion2 img {
+    width: 350px;
+    height: 250px;
+    border-radius: $bordes;
+    box-shadow: $color-shadow;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 10%;
+}
+
+h1 {
+    font-size: map-get($map: $fuentes, $key: xl);
+    font-family: $fuente-primaria;
+    text-align: $texto-centrado;
+    font-weight: $color-texto;
+
+}
+
+h2 {
+    font-size: map-get($map: $fuentes, $key: xl);
+    @include h2-h3
+}
+
+h3 {
+    font-size: map-get($map: $fuentes, $key: xl);
+    @include h2-h3
+}
+
+h4 {
+    color: #09c80f;
+    font-weight: $color-texto;
+    font-size: 2.1rem;
+    font-family: $fuente-primaria;
+}
+
+.p1 {
+    font-size: map-get($map: $fuentes, $key: l);
+    font-family: $fuente-primaria;
+    text-align: $texto-centrado;
+    padding-top: 0%;
+    margin: 0%;
+    font-weight: $color-texto;
+    margin-bottom: 0vh;
+    text-align: justify;
+}
+
+.p2 {
+    font-size: map-get($map: $fuentes, $key: l);
+    font-family: $fuente-primaria;
+    text-align: $texto-centrado;
+    padding-top: 0%;
+    margin: 0%;
+    font-weight: $color-texto;
+    margin-bottom: 0vh;
+    text-align: justify;
+}
+
+
+
+.galeria {
+    margin-left: 28%;
+    margin-top: 5%;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    width: 20%;
+    height: 20%;
+}
+
+.galeria1 {
+    box-shadow: $color-shadow;
+    background-color: $color-primario;
+    border-radius: $bordes;
+    font-size: map-get($map: $fuentes, $key: xl);
+    line-height: $interlineado;
+}
+
+.galeria2 {
+    text-align: $texto-centrado;
+}
+
+.galeria3 {
+    margin-left: 10%;
+    margin-top: 0%;
+    height: 80%;
+    width: 80%;
+    box-shadow: $color-shadow;
+}
+
+.galeria3:hover {
+    background: map-get($map: $color-hover, $key: hover2);
+    ;
+    box-shadow: $color-shadow2;
+    transition: .2s ease-in;
+}
+
+.galeria4 {
+    margin-left: 50%;
+    margin-top: -42.3%;
+    padding-bottom: 0%;
+    padding-top: 2%;
+    width: 20.5%;
+    height: 20%;
+}
+
+.galeria5 {
+    margin-left: 39%;
+    margin-top: 5%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 20%;
+    height: 20%;
+}
+
+/* FIN DEL MAIN Y PAGINA DE "INICIO" */

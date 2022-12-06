@@ -1,0 +1,67 @@
+/*PAGINA DE "GRUPOS"*/
+
+.main5 {
+    background-image: url("../assets/images/FONDOS/fondo verduras.jpg");
+    @include mixin
+}
+
+.main6 {
+    background-image: url("../assets/images/FONDOS/fondo frutas.jpg");
+    @include mixin
+}
+
+.main7 {
+    background-image: url("../assets/images/FONDOS/fondo lacteos.jpg");
+    @include mixin
+}
+
+.main8 {
+    background-image: url("../assets/images/FONDOS/fondo aceite.jpg");
+    @include mixin
+}
+
+.main9 {
+    background-image: url("../assets/images/FONDOS/fondo legumbres.webp");
+    @include mixin
+}
+
+.main10 {
+    background-image: url("../assets/images/FONDOS/fondo grasas.jpg");
+    @include mixin
+}
+.main11 {
+    background-image: url("../assets/images/FONDOS/fondo carne.jpg");
+    @include mixin
+}
+
+.video {
+    width: 30%;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: map-get($map: $fuentes, $key: s);
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+    text-align: justify;
+    display: flex;
+
+}
+
+.video2 {
+    margin-left: 0%;
+    background-color: rgb(6, 6, 6);
+    padding: 0.5%;
+    border-radius: $bordes;
+    box-shadow: $color-shadow;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+
+
+/*PAGINA DE "GRUPOS"*/

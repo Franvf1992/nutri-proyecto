@@ -1,0 +1,99 @@
+/*PAGINA DE "NOSOTROS"*/
+
+.main2 {
+    background-image: url("../assets/images/FONDOS/fondo 2.webp");
+    @include mixin
+}
+
+.testicuadro1 {
+    width: 32%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 0px 0px;
+    font-size: map-get($map: $fuentes, $key: s);
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testicuadro2 {
+    width: 30%;
+    margin-left: 55%;
+    margin-top: -31%;
+    padding: 0.5%;
+    padding-bottom: 0px 0px;
+    font-size: map-get($map: $fuentes, $key: s);
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testicuadro3 {
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px;
+    padding-bottom: 0px 0px;
+    font-size: map-get($map: $fuentes, $key: s);
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+
+.testicuadro4 {
+    width: 30%;
+    margin-top: -38%;
+    padding: 10px;
+    padding-bottom: 0px 0px;
+    font-size: map-get($map: $fuentes, $key: s);
+    line-height: $interlineado;
+    background-color: $color-primario;
+    box-shadow: $color-shadow;
+    border-radius: $bordes;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55%;
+    object-fit: cover;
+
+}
+
+.testicuadro5 {
+    padding-bottom: 8%;
+}
+
+.testimonio1 {
+    margin-left: 30%;
+    height: 220px;
+    width: 220px;
+}
+
+.testimonio2 {
+    text-align: left;
+    font-weight: $color-texto;
+    font-size: map-get($map: $fuentes, $key: l);
+    text-align: $texto-centrado;
+}
+
+.testimonio3 {
+    font-size: map-get($map: $fuentes, $key: l);
+    text-align: $texto-centrado;
+}
+
+/*PAGINA DE "NOSOTROS"*/

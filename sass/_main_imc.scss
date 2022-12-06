@@ -1,0 +1,37 @@
+/*PAGINA DE "IMC"*/
+
+.main3 {
+    background-image: url("../assets/images/FONDOS/fondo 3.webp");
+    @include mixin
+}
+
+
+.imc1 {
+    margin-left: 5%;
+}
+
+.imc2 {
+    padding-bottom: 5%;
+}
+
+.boton {
+    background-color: $color-primario;
+    border-radius: $bordes;
+    box-shadow: $color-shadow;
+    margin-left: 37%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    width: 200px;
+    height: 100px;
+    font-size: map-get($map: $fuentes, $key: s);
+    font-weight: $color-texto;
+}
+
+.manzanaimc {
+    margin-left: 50%;
+    height: 12%;
+    width: 12%;
+    margin-top: -10%;
+}
+
+/*PAGINA DE "IMC"*/

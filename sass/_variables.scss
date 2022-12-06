@@ -1,3 +1,38 @@
+/*COLORES*/
+$color-shadow: rgba(0, 0, 0, 0.45);
+$color-shadow2: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
 $color-primario: #dae968;
-$fuente-primaria:'Merriweather',serif;
-$centrado: center
+$color-texto: bold;
+$color-gradiente: linear-gradient(to top, #053707, #266112, #4e8e19, #7dbc1a, #b3eb12);
+/*COLORES*/
+
+/*TEXTOS y BORDES*/
+$texto-centrado:center;
+$bordes:5px;
+/*MEDIDAS/*
+
+/*FUENTES*/
+$fuente-primaria: 'Merriweather', serif;
+$interlineado:1.5;
+/*FUENTES*/
+
+/*MAPAS*/
+
+$color-hover:(
+
+hover1: #d8df04,
+hover2: #0fc7c1,
+
+); 
+
+
+ 
+
+
+$fuentes:(
+
+    xl:3rem,
+    l:2rem,
+    m:1.5rem,
+    s:1rem,
+);

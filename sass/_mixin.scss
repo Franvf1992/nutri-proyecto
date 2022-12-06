@@ -1,0 +1,22 @@
+@mixin h2-h3 
+{
+    font-family: $fuente-primaria;
+    margin: 8%;
+    text-align: $texto-centrado;
+    font-weight: $color-texto;
+    margin-bottom: 20vh;
+    
+}
+
+@mixin mixin
+{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        justify-content: $texto-centrado;
+        overflow: hidden;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+

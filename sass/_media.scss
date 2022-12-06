@@ -1,0 +1,151 @@
+/* INICIO (CELULAR O PANTALLAS MENORES A 768PX) */
+
+@media (max-width: 412px) {
+
+    header {
+        .nav1 {
+            .logo {
+                width: 45%;
+                margin-top: 5%;
+
+                .infonutri {
+                    width: 100%;
+                    height: 40%;
+                    margin-top: -20%;
+                }
+            }
+        }
+    }
+
+
+    h1 {
+        font-size: map-get($map: $fuentes, $key: s);
+    }
+
+    .nutricion {
+        padding-top: 40%;
+    }
+
+    .nutricion1 {
+        font-size: map-get($map: $fuentes, $key: l);
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 0%;
+    }
+
+    .nutricion2 {
+        width: 100%;
+        margin-left: 3%;
+        margin-top: 10%;
+        font-size: 5px;
+        line-height: $interlineado;
+        text-align: justify;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nutricion7 {
+        margin-bottom: 10%;
+        width: 80%;
+        margin-left: 12%;
+        margin-top: 10%;
+        padding: 20px 20px;
+    }
+
+    h1 {
+        font-size: map-get($map: $fuentes, $key: xl);
+    }
+
+    h2 {
+        font-size: map-get($map: $fuentes, $key: s);
+    }
+
+    h3 {
+        font-size: map-get($map: $fuentes, $key: s);
+        margin-bottom: 10vh;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .p1 {
+        font-size: map-get($map: $fuentes, $key: s);
+        font-family: $fuente-primaria;
+        text-align: $texto-centrado;
+        padding-right: 3%;
+        padding-top: 5%;
+        font-weight: $color-texto;
+        margin-bottom: 0vh;
+        text-align: justify;
+    }
+
+    .nav2 {
+        margin-left: 0%;
+    }
+
+    .tabla {
+        height: 90%;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .galeria {
+        margin-left: 17%;
+        margin-top: 0%;
+        width: 65%;
+        height: 65%;
+    }
+
+    .galeria4 {
+        margin-left: 20%;
+        margin-top: 0%;
+        width: 60%;
+        height: 60%;
+    }
+
+    .galeria5 {
+        margin-left: 20%;
+        margin-top: 0%;
+        width: 60%;
+        height: 60%;
+    }
+
+    .tabla4 {
+        width: 30%;
+        margin-left: 36%;
+    }
+
+    footer {
+        .red1 {
+            margin-left: -8%;
+            margin-bottom: -3%;
+            width: 8%;
+        }
+
+        .red2 {
+            margin-bottom: -7%;
+            margin-left: -8%;
+            width: 8%;
+        }
+
+        .red3 {
+            margin-left: -8%;
+            margin-bottom: -13%;
+            width: 8%;
+        }
+
+        .wpp {
+            margin-bottom: -10%;
+            width: 8%;
+        }
+
+        .copy {
+            margin-top: 10%;
+        }
+
+    }
+
+}
+
+/* fINAL (CELULAR O PANTALLAS MENORES A 768PX) */
