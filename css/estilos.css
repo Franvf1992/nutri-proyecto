@@ -215,6 +215,15 @@ h4 {
   width: 20%;
   height: 20%; }
 
+.galeria6 {
+  margin-left: 50%;
+  margin-top: -42.3%;
+  margin-bottom: 5%;
+  padding-bottom: 0%;
+  padding-top: 2%;
+  width: 20.5%;
+  height: 20%; }
+
 /* FIN DEL MAIN Y PAGINA DE "INICIO" */
 /*PAGINA DE "NOSOTROS"*/
 .main2 {
@@ -415,6 +424,9 @@ h4 {
   box-shadow: rgba(0, 0, 0, 0.45);
   margin-top: 2%;
   margin-bottom: 0%; }
+
+.fotocarne {
+  float: inline-start; }
 
 /*PAGINA DE "GRUPOS"*/
 /*PAGINA DE "IMC"*/
