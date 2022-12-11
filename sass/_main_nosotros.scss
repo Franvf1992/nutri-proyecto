@@ -44,7 +44,7 @@
     width: 35%;
     margin-left: 10%;
     margin-top: 10%;
-    padding: 10px;
+    padding: 0.5%;
     padding-bottom: 0px 0px;
     font-size: map-get($map: $fuentes, $key: s);
     line-height: $interlineado;
@@ -88,7 +88,6 @@
 }
 
 .testimonio2 {
-    text-align: left;
     font-weight: $color-texto;
     font-size: map-get($map: $fuentes, $key: l);
     text-align: $texto-centrado;

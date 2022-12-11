@@ -19,8 +19,8 @@
     border-radius: $bordes;
     box-shadow: $color-shadow;
     padding: 0%;
-    padding-bottom: 15%;
-    padding-top: 1%;
+    padding-bottom: 20%;
+    padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
     height: 40%;
@@ -31,10 +31,12 @@
     margin-bottom: -10%;
     font-weight: $color-texto;
 }
-
+ .tabla1{
+    margin-top: -10%;
+ }
 
 .tabla4 {
-    background-color: $color-primario;
+    background:none;
     border-radius: $bordes;
     box-shadow: $color-shadow;
     font-weight: $color-texto;
@@ -43,6 +45,17 @@
     margin-top: 0%;
     width: 10%;
     height: 10%;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    transform-origin: center ;
+
+}
+
+.tabla4 :hover ::after{
+    transform: scale(400);
+    background-color: $color-primario;
 }
 
 .mensaje {
@@ -51,17 +64,17 @@
 
 .mensaje1 {
     padding-top: 2%;
-    margin-top: 2.5%;
+    margin-top: 15%;
 }
 
 .mensaje2 {
-    padding-bottom: 15%;
-    margin-top: 1%;
+    padding-top: 2%;
+    margin-top: 2%;
 }
 
 .mensaje3 {
-    padding-top: 2%;
-    margin-top: 2.5%;
+    padding-bottom: 15%;
+    margin-top: 0%;
 }
 
 .tabla5 {
