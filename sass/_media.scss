@@ -22,16 +22,19 @@ header {
             }
         }
     }
+
+.menu{
+background-color: #dae968;
+}
+
 /*HEADER*/
-
-
 
     .nutricion {
         padding-top: 40%;
     }
 
     .nutricion1 {
-        font-size: map-get($map: $fuentes, $key: l);
+        font-size: map-get($map: $fuentes, $key: m);
         width: 80%;
         margin-left: 10%;
         margin-bottom: 0%;
@@ -55,15 +58,15 @@ header {
 
 
     h1 {
-        font-size: map-get($map: $fuentes, $key: l);
+        font-size: map-get($map: $fuentes, $key: m);
     }
 
     h2 {
-        font-size: map-get($map: $fuentes, $key: s);
+        font-size: map-get($map: $fuentes, $key: m);
     }
 
     h3 {
-        font-size: map-get($map: $fuentes, $key: s);
+        font-size: map-get($map: $fuentes, $key: m);
         margin-bottom: 10vh;
     }
 
@@ -71,10 +74,6 @@ header {
         font-size: 1.1rem;
     }
 
-    .h5{
-        font-size: map-get($map: $fuentes, $key: m);
-        font-weight: $color-texto;
-    }
 
     .p1 {
         font-size: map-get($map: $fuentes, $key: s);
@@ -86,6 +85,32 @@ header {
         margin-bottom: 0vh;
         text-align: justify;
     }
+
+    /*PAGINA DE "INICIO"*/
+    
+.galeria {
+    margin-left: 17%;
+    margin-top: 0%;
+    width: 65%;
+    height: 65%;
+         }
+    
+.galeria4 {
+    margin-left: 17%;
+    margin-top: 0%;
+    margin-bottom: 8%;
+    width: 65%;
+    height: 65%;
+         }
+    
+.galeria5 {
+    margin-left: 17%;
+    margin-top: 0%;
+    width: 65%;
+    height: 65%;
+         }
+    
+  /*PAGINA DE "INICIO"*/
 
   /*PAGINA DE "NOSOTROS"*/
 
@@ -135,32 +160,6 @@ header {
     }
 
  /*PAGINA DE "NOSOTROS"*/
-
- /*PAGINA DE "INICIO"*/
-
-    .galeria {
-        margin-left: 17%;
-        margin-top: 0%;
-        width: 65%;
-        height: 65%;
-    }
-
-    .galeria4 {
-        margin-left: 17%;
-        margin-top: 0%;
-        margin-bottom: 8%;
-        width: 65%;
-        height: 65%;
-    }
-
-    .galeria5 {
-        margin-left: 17%;
-        margin-top: 0%;
-        width: 65%;
-        height: 65%;
-    }
-
-/*PAGINA DE "INICIO"*/
  
 /*PAGINA "GRUPOS"*/
 
@@ -215,17 +214,70 @@ header {
 
 /*PAGINA "IMC"*/
 
+/*PAGINA "CONTACTO"*/
 
   .tabla {
-      height: 90%;
+      height: 95%;
       width: 90%;
       margin-left: 5%;
   }
 
-    .tabla4 {
+  .tabla1{
+    height: 10%;
+    padding-top: 10%;
+  }
+
+  .texto {
+      margin-top: 3%;
+      padding-top: 10%;
+  }
+
+  .mensaje1 {
+      margin-top: 6%;
+  }
+
+  .mensaje1-1 {
+      padding-top: 10%;
+      margin-top: -1.5%;
+  }
+
+  .mensaje2 {
+      margin-top: 3%;
+  }
+
+  .mensaje1-2 {
+      padding-top: 10%;
+      margin-top: -4%;
+  }
+
+  .mensaje3 {
+      margin-top: 3%;
+  }
+
+  .mensaje1-3 {
+      padding-top: 10%;
+      margin-top: -2%;
+  }
+
+  .mensaje4 {
+      padding-bottom: 30%;
+      margin-top: 5%;
+  }
+
+  .mensaje1-4 {
+      padding-top: 10%;
+      margin-top: 5%;
+  }
+
+    .boton2 {
         width: 30%;
-        margin-left: 36%;
+        height: 40%;
+        margin-left: 0%;
+        margin-top: 25%;
+        
     }
+
+/*PAGINA "CONTACTO"*/
 
     footer {
         .red1 {

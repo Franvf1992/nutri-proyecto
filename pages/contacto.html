@@ -21,7 +21,7 @@
         <div class="container-fluid nav1">
             <a class="navbar-brand logo" href="../index.html"> <img class="infonutri" src="../assets/images/logo.png"
                     alt="Letra del logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -64,28 +64,36 @@
                 <div data-aos="zoom-out"  class="col">
                     <h1 class="nutricion1">CONTACTATE CON NOSOTROS</h1>
                 </div>
-                <form> 
+                <form action="./error.html" method="post"> 
                   <div data-aos="zoom-out" class="container text-center tabla"> <img class="tabla1" src="../assets/images/logo.png" alt="logo formulario">
                     <div class="row mb-3"> 
-                        <label for="inputEmail3" class="col-sm-2 col-form-label mensaje">Nombre y Apellido</label required>
+                        <p class="texto">¿Tienes alguna duda o pregunta extra?, entonces háznoslo saber y te enviaremos la información que necesites para que
+                        puedas continuar con tu vida saludable.</p>
+                        <label for="inputEmail3" class="col-sm-2 col-form-label mensaje1-1">Nombre y Apellido</label >
                         <div class="col-sm-10">
-                            <input type="email" class="form-control mensaje1" id="inputEmail3">
+                            <input type="text" class="form-control mensaje1" id="inputEmail3"required>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="inputPassword3" class="col-sm-2 col-form-label">Correo Electronico</label required>
+                        <label for="inputPassword3" class="col-sm-2 col-form-label mensaje1-2">Correo Electronico</label >
                         <div class="col-sm-10">
-                            <input type="password" class="form-control mensaje2" id="inputPassword3">
+                            <input type="text" class="form-control mensaje2" id="inputPassword3"required>
                         </div>
                     </div>
                     <div class="row mb-3">
-                         <label for="validationTextarea inputPassword3" class=" col-sm-2 col form-label">Mensaje...</label required>
+                        <label for="inputPassword3" class="col-sm-2 col-form-label mensaje1-3">Celular</label>
                         <div class="col-sm-10">
-                            <input type="password" class="form-control mensaje3" id="inputPassword3">
+                            <input type="tel" class="form-control mensaje3" id="inputPassword3" required>
                         </div>
                     </div>
-                    </div>
-                    <button class="tabla4" type="submit">Enviar</button>
+                    <div class="row mb-3">
+                         <label for="validationTextarea inputPassword3" class=" col-sm-2 col form-label mensaje1-4">Mensaje...</label >
+                        <div class="col-sm-10">
+                            <input type="message" class="form-control mensaje4" id="inputPassword3" required>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar" class="boton2">
+                        </div>
                     </div>
                   </div>
                 </form>

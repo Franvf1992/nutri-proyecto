@@ -426,11 +426,6 @@ h4{
 
 /*PAGINA DE "IMC"*/
 
-
-
-
-
-
 .imc1{
     margin-left: 5%;
 }
@@ -503,13 +498,13 @@ margin-top: 0%;
     height: 10%;
 }
 
-.mensaje{
-    margin-left: 0%;  
+.mensaje1{
+    margin-left: 10%;  
 }
 
-.mensaje1 {
-   padding-top: 2%;
-   margin-top: 2.5%;
+.mensaje1-1 {
+   padding-top: 5%;
+   margin-top: 50%;
 }
  .mensaje2{
    padding-bottom: 15%;

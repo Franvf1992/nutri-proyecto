@@ -227,7 +227,7 @@ h4 {
   margin-right: auto; }
 
 .testicuadro1 {
-  width: 32%;
+  width: 35%;
   margin-left: 10%;
   margin-top: 10%;
   padding: 0.5%;
@@ -507,7 +507,7 @@ h4 {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  height: 40%;
+  height: 70%;
   width: 40%;
   margin-left: 30%;
   font-size: 1rem;
@@ -518,50 +518,51 @@ h4 {
 .tabla1 {
   margin-top: -10%; }
 
-.tabla4 {
-  background: none;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.45);
-  font-weight: bold;
-  margin-bottom: 0%;
-  margin-left: 45%;
-  margin-top: 0%;
-  width: 10%;
-  height: 10%;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  transition: .3s ease-in-out all;
-  transform-origin: center; }
-
-.tabla4 :hover ::after {
-  transform: scale(400);
-  background-color: #dae968; }
-
-.mensaje {
-  margin-left: 0%; }
+.texto {
+  margin-top: 3%; }
 
 .mensaje1 {
-  padding-top: 2%;
-  margin-top: 15%; }
+  margin-top: 6%; }
+
+.mensaje1-1 {
+  padding-top: 5%;
+  margin-top: -1.5%; }
 
 .mensaje2 {
-  padding-top: 2%;
-  margin-top: 2%; }
+  margin-top: 3%; }
+
+.mensaje1-2 {
+  padding-top: 5%;
+  margin-top: -4%; }
 
 .mensaje3 {
-  padding-bottom: 15%;
-  margin-top: 0%; }
+  margin-top: 3%; }
 
-.tabla5 {
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.45); }
+.mensaje1-3 {
+  padding-top: 5%;
+  margin-top: -2%; }
+
+.mensaje4 {
+  padding-bottom: 20%;
+  margin-top: 5%; }
+
+.mensaje1-4 {
+  padding-top: 5%;
+  margin-top: -2%; }
 
 .boton2 {
-  height: 50PX;
-  width: 100PX;
-  margin-left: 47%;
-  margin-top: 5%; }
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.45);
+  margin-left: 0%;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  width: 40%;
+  height: 30%; }
+
+.boton2 :hover {
+  background: #d8df04;
+  box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
+  transition: .4s ease-in; }
 
 .mapa {
   margin-left: 0%;
@@ -624,11 +625,13 @@ footer {
   header .nav1 ul {
     width: 100%;
     justify-content: end; }
+  .menu {
+    background-color: #dae968; }
   /*HEADER*/
   .nutricion {
     padding-top: 40%; }
   .nutricion1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 0%; }
@@ -645,17 +648,14 @@ footer {
   .nutricion3 {
     margin-left: 2.5%; }
   h1 {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
   h2 {
-    font-size: 1rem; }
+    font-size: 1.5rem; }
   h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10vh; }
   h4 {
     font-size: 1.1rem; }
-  .h5 {
-    font-size: 1.5rem;
-    font-weight: bold; }
   .p1 {
     font-size: 1rem;
     font-family: "Merriweather", serif;
@@ -665,6 +665,24 @@ footer {
     font-weight: bold;
     margin-bottom: 0vh;
     text-align: justify; }
+  /*PAGINA DE "INICIO"*/
+  .galeria {
+    margin-left: 17%;
+    margin-top: 0%;
+    width: 65%;
+    height: 65%; }
+  .galeria4 {
+    margin-left: 17%;
+    margin-top: 0%;
+    margin-bottom: 8%;
+    width: 65%;
+    height: 65%; }
+  .galeria5 {
+    margin-left: 17%;
+    margin-top: 0%;
+    width: 65%;
+    height: 65%; }
+  /*PAGINA DE "INICIO"*/
   /*PAGINA DE "NOSOTROS"*/
   .testicuadro1 {
     margin-left: 8%;
@@ -699,24 +717,6 @@ footer {
   .testimonio3 {
     font-size: 1.5rem; }
   /*PAGINA DE "NOSOTROS"*/
-  /*PAGINA DE "INICIO"*/
-  .galeria {
-    margin-left: 17%;
-    margin-top: 0%;
-    width: 65%;
-    height: 65%; }
-  .galeria4 {
-    margin-left: 17%;
-    margin-top: 0%;
-    margin-bottom: 8%;
-    width: 65%;
-    height: 65%; }
-  .galeria5 {
-    margin-left: 17%;
-    margin-top: 0%;
-    width: 65%;
-    height: 65%; }
-  /*PAGINA DE "INICIO"*/
   /*PAGINA "GRUPOS"*/
   .galeria6 {
     margin-left: 17%;
@@ -752,13 +752,44 @@ footer {
     height: 50%;
     width: 30%; }
   /*PAGINA "IMC"*/
+  /*PAGINA "CONTACTO"*/
   .tabla {
-    height: 90%;
+    height: 95%;
     width: 90%;
     margin-left: 5%; }
-  .tabla4 {
+  .tabla1 {
+    height: 10%;
+    padding-top: 10%; }
+  .texto {
+    margin-top: 3%;
+    padding-top: 10%; }
+  .mensaje1 {
+    margin-top: 6%; }
+  .mensaje1-1 {
+    padding-top: 10%;
+    margin-top: -1.5%; }
+  .mensaje2 {
+    margin-top: 3%; }
+  .mensaje1-2 {
+    padding-top: 10%;
+    margin-top: -4%; }
+  .mensaje3 {
+    margin-top: 3%; }
+  .mensaje1-3 {
+    padding-top: 10%;
+    margin-top: -2%; }
+  .mensaje4 {
+    padding-bottom: 30%;
+    margin-top: 5%; }
+  .mensaje1-4 {
+    padding-top: 10%;
+    margin-top: 5%; }
+  .boton2 {
     width: 30%;
-    margin-left: 36%; }
+    height: 40%;
+    margin-left: 0%;
+    margin-top: 25%; }
+  /*PAGINA "CONTACTO"*/
   footer .red1 {
     margin-left: -8%;
     margin-bottom: -3%;
@@ -778,3 +809,26 @@ footer {
     margin-top: 10%; } }
 
 /* fINAL (CELULAR O PANTALLAS MENORES A 768PX) */
+.main12 {
+  background-image: url("../assets/images/FONDOS/fondo pagina error.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.error {
+  padding-top: 18%; }
+
+.error2 {
+  margin-left: 10%; }
+
+.error3 {
+  margin-left: 34%;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Merriweather", serif;
+  padding-bottom: 10%; }
