@@ -274,7 +274,35 @@ background-color: #dae968;
         height: 40%;
         margin-left: 0%;
         margin-top: 25%;
-        
+    }
+
+    .mapa{
+        width: 80%;
+        height: 50%;
+        margin-left: 11%;
+    }
+
+    .mapa2 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+        }
+
+    .p2 {
+        font-size: map-get($map: $fuentes, $key: s);
+        font-family: $fuente-primaria;
+        text-align: $texto-centrado;
+        padding-right: 3%;
+        padding-top: 5%;
+        font-weight: $color-texto;
+    }
+     
+    .titulo{
+        margin-left: 15%;
+    }
+
+    .titulo2{
+        margin-left: 17%;
     }
 
 /*PAGINA "CONTACTO"*/

@@ -148,16 +148,6 @@ h4 {
   margin-bottom: 0vh;
   text-align: justify; }
 
-.p2 {
-  font-size: 2rem;
-  font-family: "Merriweather", serif;
-  text-align: center;
-  padding-top: 0%;
-  margin: 0%;
-  font-weight: bold;
-  margin-bottom: 0vh;
-  text-align: justify; }
-
 .galeria {
   margin-left: 28%;
   margin-top: 5%;
@@ -490,6 +480,9 @@ h4 {
   margin-left: auto;
   margin-right: auto; }
 
+.p2 {
+  margin-left: 0%; }
+
 .infonutri2 {
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.45);
@@ -559,10 +552,16 @@ h4 {
   width: 40%;
   height: 30%; }
 
-.boton2 :hover {
+.boton2:hover {
   background: #d8df04;
   box-shadow: 0 0 5px #faf8f8, 0 0 25px #fffdfd, 0 0 50px #faf9f9, 0 0 200px #fffefe;
   transition: .4s ease-in; }
+
+.titulo {
+  margin-left: -53%; }
+
+.titulo2 {
+  margin-left: -73%; }
 
 .mapa {
   margin-left: 0%;
@@ -789,6 +788,25 @@ footer {
     height: 40%;
     margin-left: 0%;
     margin-top: 25%; }
+  .mapa {
+    width: 80%;
+    height: 50%;
+    margin-left: 11%; }
+  .mapa2 {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%; }
+  .p2 {
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    text-align: center;
+    padding-right: 3%;
+    padding-top: 5%;
+    font-weight: bold; }
+  .titulo {
+    margin-left: 15%; }
+  .titulo2 {
+    margin-left: 17%; }
   /*PAGINA "CONTACTO"*/
   footer .red1 {
     margin-left: -8%;
