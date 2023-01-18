@@ -84,6 +84,17 @@ h4 {
     text-align: justify;
 }
 
+.p3 {
+    font-size: map-get($map: $fuentes, $key: l);
+    font-family: $fuente-primaria;
+    text-align: $texto-centrado;
+    padding-top: 0%;
+    margin: 0%;
+    font-weight: $color-texto;
+    margin-bottom: 0%;
+    text-align: justify;
+}
+
 .galeria {
     margin-left: 28%;
     margin-top: 5%;
